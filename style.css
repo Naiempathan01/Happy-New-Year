@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://wallpapercave.com/dwp2x/wp5267280.jpg);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Aldrich', sans-serif;
+    height: 110vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+.countdown-container {
+    display: flex;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+
+.time {
+    display: flex;
+    font-size: 1.2em;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.time h1 {
+    margin-top: 0%;
+    margin-bottom: 0px;
+    font-size: 55px;
+}
+
+.time small {
+    color: rgb(253, 253, 253);
+}
